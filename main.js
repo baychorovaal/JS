@@ -338,31 +338,161 @@ const getNumberExplanation = (number) => {
   export default getNumberExplanation;
 
 //Задание №63
+const printNumbers = (initialNumber) => {
+  let i = initialNumber;
+  while (i >= 1) {
+    console.log(i);
+    i = i - 1;
+  }
+  console.log('finished!');
+};
 
+export default printNumbers;
 
 //Задание №64
+const multiplyNumbersFromRange = (start, finish) => {
+  let i = start;
+  let result = 1;
+
+  while (i <= finish) {
+    result = result * i;
+    i = i + 1;
+  }
+
+  return result;
+};
+
+export default multiplyNumbersFromRange;
 
 
 //Задание №65
+const joinNumbersFromRange = (start, finish) => {
+  let i = start;
+  let result = '';
+
+  while (i <= finish) {
+    result = `${result}${i}`;
+    i = i + 1;
+  }
+
+  return result;
+};
+
+export default joinNumbersFromRange;
 
 
 //Задание №66
+const printReversedWordBySymbol = (word) => {
+  let i = word.length - 1;
+  while (i >= 0) {
+    console.log(word[i]);
+    i = i - 1;
+  }
+};
+
+export default printReversedWordBySymbol;
 
 
 //Задание №67
+const countChars = (str, char) => {
+  let i = 0;
+  let count = 0;
+  while (i < str.length) {
+    if (str[i].toLowerCase() === char.toLowerCase()) {
+      count = count + 1;
+    }
+    i = i + 1;
+  }
 
+  return count;
+};
+
+export default countChars;
 
 //Задание №68
+const even = (str) => {
+  let i = 0;
+  let result = '';
+  while (i < str.length) {
+    if (i % 2 !== 0) {
+      result = `${result}${str[i]}`;
+    }
+    i = i + 1;
+  }
+
+  return result;
+};
+
+
+export default even;
 
 
 //Задание №69
+const filterString = (str, char) => {
+  let i = 0;
+  let result = '';
+  while (i < str.length) {
+    const currentChar = str[i];
+    if (currentChar !== char) {
+      result = `${result}${currentChar}`;
+    }
+    i += 1;
+  }
+
+  return result;
+};
+
+export default filterString;
 
 
 //Задание №70
+const makeItFunny = (str, n) => {
+  let i = 0;
+  let result = '';
+  while (i < str.length) {
+    const current = str[i];
+    if ((i + 1) % n === 0) {
+      result = `${result}${current.toUpperCase()}`;
+    } else {
+      result = `${result}${current}`;
+    }
+    i++;
+  }
+
+  return result;
+};
+
+export default makeItFunny;
 
 
 //Задание №71
+const hasChar = (str, char) => {
+  let i = 0;
+  while (i < str.length) {
+    if (str[i] === char) {
+      return true;
+    }
 
+    i += 1;
+  }
+
+  return false;
+};
+
+export default hasChar;
 
 //Задание №72
+const encrypt = (str) => {
+  let result = '';
+  for (let i = 0; i < str.length; i += 2) {
+    const nextSymbol = str[i + 1] || '';
+    result = `${result}${nextSymbol}${str[i]}`;
+  }
+
+  return result;
+};
+
+export default encrypt;
+
+
 
