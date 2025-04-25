@@ -1,0 +1,441 @@
+/*Задание №1 */
+<p style="font-size: 25px;">Первое изменение стиля с помощью CSS</p>
+
+/*Задание №2 */
+<p style="font-size: 12px;">Альбина</p>
+
+/*Задание №3 */
+<div style="font-size: 20px;"> 
+<p style="font-size: 10px;"><Байчорова</p>
+</div>
+
+/*Задание №4 */
+<style>
+  p{
+    font-size: 10px;
+  }
+</style>
+<p> Альбина</p>
+
+/*Задание №5 */
+<style>
+  h1{
+    font-size: 20px;
+  }
+</style>
+<h1>Альбина</h1>
+
+/*Задание №6 */
+<p class="news"></p>
+<style>
+  .news{
+    color: #553333;
+  }
+</style>
+
+/*Задание №7 */
+<p id="red" class="bold"></p>
+
+<style>
+#red {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+}
+</style>
+
+/*Задание №8 */
+<p class="cascade"></p>
+<style>
+.cascade{
+font-size: 25px;
+}
+p{
+  padding: 15px;
+}
+</style>
+
+/*Задание №9 */
+<p class="border" id="no-border"></p>
+<style>
+  .border{
+    border: 1px solid #000;
+  }
+  #no-border{
+    border-style: none;
+  }
+</style>
+
+/*Задание №10 */
+<p><span class="violet"></span></p>
+<style>
+  .violet {
+  color: #9400d3;
+}
+</style>
+
+/*Задание №11 */
+<p class="important"></p>
+<style>
+  .important{
+    text-align: center;
+  }
+</style>
+
+/*Задание №12 */
+<p class="big"></p>
+<style>
+  .big{
+     font-size: 60px;
+  }
+</style>
+
+/*Задание №13 */
+<p class="weight"></p>
+<style>
+  .weight {
+  font-weight: bold;
+  }
+</style>
+
+/*Задание №14 */
+<p class="italic-type"></p>
+<style>
+  .italic-type{
+    font-style: oblique;
+  }
+</style>
+
+/*Задание №15 */
+<p class="small-capitals"></p>
+<style>
+  .small-capitals {
+    font-variant: small-caps;
+  }
+</style>
+
+/*Задание №16 */
+<p class="line"></p>
+<style>
+  .line {
+    text-decoration:underline;
+  }
+</style>
+
+/*Задание №17 */
+<p class="line-height"></p>
+<style>
+  p{
+  font-size: 24px;
+  }
+  .line-height {
+    line-height: 36px;
+  }
+</style>
+
+/*Задание №18 */
+<p class="verdana-text"></p>
+<style>
+  .verdana-text {
+    font-family: Verdana, sans-serif;
+  }
+</style>
+
+/*Задание №19 */
+<p class="bold-text"></p>
+<style>
+  .bold-text {
+    font: bold 24px Verdana, sans-serif;
+  }
+</style>
+
+/*Задание №20
+нет задания */
+
+
+/*Задание №21 */
+<div class="border-bold"></div>
+<style>
+  .border-bold {
+    border: 5px solid #2196F3;
+  }
+</style>
+
+/*Задание №22 */
+<div class="background"></div>
+<style>
+  .background {
+    background-color: #2196f3;
+  }
+</style>
+
+/*Задание №23 */
+<p class="padding">Что делает верстальщик? Создаёт страницы с помощью HTML и CSS. Умеет пользоваться возможностями модулей Flex и Grid. Использует препроцессор SASS, шаблонизатор Pug и собирает проекты с помощью Gulp. Следит за доступностью сайта, создавая семантически правильную разметку. Создаёт компоненты и утилиты на Bootstrap. Верстает адаптивные проекты</p>
+<style>
+  .padding {
+    padding: 10px 20px 15px;
+
+  color: #ffffff;
+  background-color: #000;
+  }
+</style>
+
+/*Задание №24 */
+<div class="margin"></div>
+<style>
+  .margin {
+     margin: 20px;
+  }
+</style>
+
+/*Задание №25 */
+<div class="rectangle"></div>
+<style>
+  .rectangle {
+    width: 300px;
+    height: 100px;
+    background-color: #000;
+  }
+</style>
+
+/*Задание №26 */
+<div class="card-hello"></div>
+<style>
+  .card-hello {
+    width: 230px;
+    height: 25px;
+    
+    padding: 20px;
+    margin: 10px;
+    
+    border: 2px solid #9c27b0;
+
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #fa7268;
+  }
+</style>
+
+/*Задание №27 */
+<div class="qa">
+  <div class="question">Какие языки программирования наиболее востребованы в 2023?</div>
+  <div class="answer">Самыми популярными языками для изучения в 2023 году остаются Python и JavaScript.</div>
+</div>
+ <style>
+  .qa {
+  display: flex;
+  font: 18px/1.5 sans-serif;
+}
+  .question {
+  width: 40%;
+  padding: 20px;
+  
+  color: #fff;
+  background: #8ea7e9;
+  }
+  
+  .answer {
+  width: 60%;
+  padding: 20px;
+  }
+
+ </style>
+
+/*Задание №28 */
+<style>
+  .qa {
+    font: 18px/1.5 sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .question {
+    width: 40%;
+    padding: 20px;
+
+    color: #fff;
+    background: #8ea7e9;
+  }
+
+  .answer {
+    width: 60%;
+    padding: 20px;
+  }
+</style>
+
+<div class="qa">
+  <div class="question">Какие языки программирования наиболее востребованы в 2023?</div>
+  <div class="answer">Самыми популярными языками для изучения в 2023 году остаются Python и JavaScript</div>
+</div>
+
+/*Задание №29 */
+<style>
+.qa {
+  font: 18px/1.5 sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.question {
+  width: 400px;
+  padding: 20px;
+
+  color: #fff;
+  background: #8ea7e9;
+}
+
+.answer {
+  width: 400px;
+  padding: 20px;
+}
+</style>
+
+<div class="qa">
+  <div class="question">Какие языки программирования наиболее востребованы в 2023?</div>
+  <div class="answer">Самыми популярными языками для изучения в 2023 году остаются Python и JavaScript</div>
+</div>
+
+/*Задание №30 */
+<style>
+.qa {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  font: 18px/1.5 sans-serif;
+ 
+}
+
+.question {
+  width: 400px;
+  padding: 20px;
+
+  color: #fff;
+  background: #8ea7e9;
+}
+
+.answer {
+  width: 400px;
+  padding: 20px;
+}
+
+.arrow {
+  
+  margin: 0 10px;
+}
+</style>
+
+<div class="qa">
+  <div class="question">Какие языки программирования наиболее востребованы в 2023?</div>
+  <div class="arrow">→</div>
+  <div class="answer">Самыми популярными языками для изучения в 2023 году остаются Python и JavaScript</div>
+</div>
+
+/*Задание №31 */
+<style>
+  .qa {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 18px/1.5 sans-serif;
+
+  }
+
+  .question {
+    width: 400px;
+    padding: 20px;
+
+    color: #fff;
+    background: #8ea7e9;
+  }
+
+  .answer {
+    width: 400px;
+    padding: 20px;
+  }
+
+  .arrow {
+    flex-grow: 1;
+    text-align:center;
+    margin: 0 10px;
+  }
+</style>
+
+<div class="qa">
+  <div class="question">Какие языки программирования наиболее востребованы в 2023?</div>
+  <div class="arrow">→</div>
+  <div class="answer">Самыми популярными языками для изучения в 2023 году остаются Python и JavaScript</div>
+</div>
+
+/*Задание №32
+нет задания */
+
+/*Задание №33 */
+<div class="header">
+  <p class="offer"></p>
+</div>
+<style>
+  .header {
+    font-size: 22px;
+  }
+
+  .offer{
+    font-size: 200%;
+  }
+</style>
+
+/*Задание №34 */
+<p class="background-black-50"></p>
+<style>
+  .background-black-50 {
+     background-color: rgba(0, 0, 0, 0.5)
+  }
+</style>
+
+/*Задание №35 */
+<p class="white-text-mobile"></p>
+<style>
+  @media (max-width: 750px){
+  .white-text-mobile {
+  color: #000000;
+  }
+  }
+</style>
+
+/*Задание №36 */
+<p class="black-white"></p>
+<style>
+  .black-white {
+    @keyframes color-change {
+  0% {
+    color: black;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+ animation: color-change 3s infinite;
+  }
+</style>
+
+
+/*Задание №37 */
+<style>
+:root {
+  --main-blue: #00bfff;
+}
+</style>
+
+/*Задание №38 */
+<div class=" relative-position"></div>
+<style>
+  .relative-position {
+    position: relative;
+    top: 100px;
+    right: 50px;
+  }
+</style>
